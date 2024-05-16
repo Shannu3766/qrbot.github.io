@@ -1,6 +1,6 @@
 from aiogram import Bot, Dispatcher,executor, types
 import pyqrcode
-bot = Bot(token="6055207499:AAFwOL2Zfw17DsaDEGCcuYR9fMwUmHtyCRI")
+bot = Bot(token="Your telegram bot token ID")
 dp=Dispatcher(bot)
 
 @dp.message_handler(commands=["start","help"])
